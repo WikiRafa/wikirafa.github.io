@@ -1,0 +1,13 @@
+/* Declaración de la fuente local */
+@font-face {
+    font-family: 'Gentium Basic';
+    src: url('fonts/GentiumBasic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Aplicar la fuente al cuerpo */
+  body {
+    font-family: 'Gentium Basic', serif;
+  }
+  
