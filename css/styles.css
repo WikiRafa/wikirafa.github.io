@@ -1,7 +1,7 @@
 /* Declaración de la fuente local */
 @font-face {
     font-family: 'Gentium Basic';
-    src: url('fonts/GentiumBasic-Regular.ttf') format('truetype');
+    src: url('fonts/GentiumPlus/GentiumPlus-Regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }
