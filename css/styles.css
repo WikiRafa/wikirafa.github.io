@@ -7,7 +7,9 @@
   }
   
   /* Aplicar la fuente al cuerpo */
-  body {
+  h1 {
     font-family: 'Gentium Basic', serif;
   }
-  
+  body {
+    font-family: Arial, sans-serif;
+  }
