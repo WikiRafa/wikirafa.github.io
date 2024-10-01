@@ -8,10 +8,11 @@
   
   /* Aplicar la fuente al cuerpo*/
   h1 {
-    font-family: 'Gentium Basic', serif;
-    font-size: 13px;
+      font-family: 'Gentium Basic', serif;
+      font-size: 32px; /* Adjusted font size */
   }
-h2 {
-    font-family: Arial;
-    font-size: 12px;
+  
+  h2 {
+      font-family: Arial;
+      font-size: 24px; /* Adjusted font size */
   }
