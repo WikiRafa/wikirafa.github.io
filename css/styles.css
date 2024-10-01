@@ -9,10 +9,28 @@
   /* Aplicar la fuente al cuerpo*/
   h1 {
       font-family: 'Gentium Basic', serif;
-      font-size: 32px; /* Adjusted font size */
+      font-size: 32px;
+  }
+  
+  body {
+      font-family: 'Gentium Basic', serif;
+      font-size: 32px;
   }
   
   h2 {
       font-family: Arial;
-      font-size: 24px; /* Adjusted font size */
+      font-size: 24px;
+  }
+  
+  #Banner {
+      background-color: #f0f0f0;
+      color: #333;
+      padding: 10px;
+      
+      /*Alinear el banner y hacer que ocupe todo el horizontal como cabezera*/
+      text-align: center;
+      width: 100%;
+  
+      /*Añadir sombra al banner*/
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
