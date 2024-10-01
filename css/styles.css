@@ -1,36 +1,97 @@
-/* Declaración de la fuente local */
-@font-face {
-    font-family: 'Gentium Basic';
-    src: url('fonts/GentiumPlus/GentiumPlus-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  /* Aplicar la fuente al cuerpo*/
-  h1 {
-      font-family: 'Gentium Basic', serif;
-      font-size: 32px;
-  }
-  
-  body {
-      font-family: 'Gentium Basic', serif;
-      font-size: 32px;
-  }
-  
-  h2 {
-      font-family: Arial;
-      font-size: 24px;
-  }
-  
-  #Banner {
-      background-color: #f0f0f0;
-      color: #333;
-      padding: 10px;
-      
-      /*Alinear el banner y hacer que ocupe todo el horizontal como cabezera*/
-      text-align: center;
-      width: 100%;
-  
-      /*Añadir sombra al banner*/
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+/* Reseteo de márgenes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar .logo {
+    width: 80px; /* Ajuste de tamaño del logo */
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    max-width: 1200px; /* Limitar el ancho máximo del contenido */
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#Banner {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos de los textos */
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+/* Logo del contenido */
+.logo-right {
+    display: block;
+    margin: 40px auto;
+    max-width: 200px; /* Limitar tamaño del logo a 200px */
+    height: auto;
+}
+
+/* Estilo del footer o secciones extra si es necesario */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+}
