@@ -6,6 +6,13 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Apply box-sizing to all elements */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 /* Barra lateral */
 .sidebar {
     background-color: #333;
@@ -48,15 +55,19 @@ body {
     box-sizing: border-box;
 }
 
+/* Header */
 header {
     text-align: center;
     margin-bottom: 30px;
 }
 
 header .logo {
-    width: 100px;
-    height: auto;
-    margin-bottom: 20px;
+    width: 100%;
+    height: auto; /* Adjust height to auto for responsiveness */
+    max-height: 380px; /* Set a max height */
+    object-fit: cover; /* Ensure the image covers the space */
+    margin: 0;
+    padding: 0;
 }
 
 header h1 {

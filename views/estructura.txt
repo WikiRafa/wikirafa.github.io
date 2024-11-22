@@ -35,6 +35,10 @@
         <header>
             <!-- Imagen del logo (ajusta la ruta si es necesario) -->
             <img src="../img/Imagenes/Banner_WikiRafa.png" alt="Logo WikiRafa" class="logo">
+            <!-- Título principal -->
+            <h1>WikiRafa</h1>
+            <!-- Descripción o lema -->
+            <p>La grandeza de Rafa</p>
         </header>
 
         <!-- Sección 1 -->
